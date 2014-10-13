@@ -32,7 +32,9 @@
 				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
 				/*	InfoWindow */
-				var infoWindow = new google.maps.InfoWindow({});
+				var infoWindow = new google.maps.InfoWindow({
+					maxWidth: 350
+				});
 
 				/*	=================
 					http://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example/3059129#3059129 

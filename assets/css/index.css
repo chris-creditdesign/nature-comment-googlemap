@@ -18,6 +18,10 @@
   text-decoration: underline;
 }
 
+.gm-style-iw {
+  min-height: 160px;
+}
+
 .html-widget {
   width: 100%;
 }

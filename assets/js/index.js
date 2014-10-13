@@ -22,11 +22,11 @@
 
 			function initialize() {
 				
-				var centerLatlng = new google.maps.LatLng(24.4571832,-10);
+				var centerLatlng = new google.maps.LatLng(5,-10);
 
 				var mapOptions = {
 					center: centerLatlng,
-					zoom:2
+					zoom:1
 				};
 				
 				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);

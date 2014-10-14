@@ -12,7 +12,7 @@
 				["singapore", 1.352083,103.819836, $("#map-content #singaporeContent").html()],
 				["geneva", 46.2221721,6.1482593, $("#map-content #genevaContent").html()],
 				["pittsburgh", 40.442492,-79.942553, $("#map-content #pittsburghContent").html()],
-				["newYork", 42.453449,-76.473503, $("#map-content #newYorkContent").html()],
+				["newYork", 40.763017,-73.949688, $("#map-content #newYorkContent").html()],
 				["huntsville", 34.7303688,-86.5861037, $("#map-content #huntsvilleContent").html()],
 				["aurora", 39.74486,-104.839997, $("#map-content #auroraContent").html()],
 				["berkeley", 37.871899,-122.25854, $("#map-content #berkeleyContent").html()],

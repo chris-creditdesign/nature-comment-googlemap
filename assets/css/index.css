@@ -1,24 +1,32 @@
-#map-canvas img {
+.outer-wrapper {
+  width: 100%;
+  border: 1px solid #c8c7cf;
+  margin: 0 0 1em;
+}
+.outer-wrapper h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.outer-wrapper p {
+  margin-left: 10px;
+}
+.outer-wrapper #map-canvas img {
   max-width: none;
 }
-
-#map-canvas h2 {
+.outer-wrapper #map-canvas h2 {
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 0;
 }
-
-#map-canvas p, a {
+.outer-wrapper #map-canvas p, .outer-wrapper a {
   font-size: 1.1em;
   margin: 0;
   line-height: 1.5em;
 }
-
-#map-canvas a {
+.outer-wrapper #map-canvas a {
   text-decoration: underline;
 }
-
-.gm-style-iw {
+.outer-wrapper .gm-style-iw {
   min-height: 160px;
 }
 

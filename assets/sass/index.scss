@@ -1,26 +1,42 @@
-#map-canvas img {
-	max-width: none;
+.outer-wrapper {
+	width: 100%;
+	border: 1px solid #c8c7cf;
+	margin: 0 0 1em;
+
+	h2 {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	p {
+		margin-left: 10px;
+	}
+
+	#map-canvas img {
+		max-width: none;
+	}
+
+	#map-canvas h2 {
+		font-size: 1.8em;
+		line-height: 1.2em;
+		margin: 0;
+	}
+
+	#map-canvas p, a {
+		font-size: 1.1em;
+		margin: 0;
+		line-height: 1.5em;
+	}
+
+	#map-canvas a {
+		text-decoration: underline;
+	}
+
+	.gm-style-iw {
+	    min-height: 160px;
+	}
 }
 
-#map-canvas h2 {
-	font-size: 1.8em;
-	line-height: 1.2em;
-	margin: 0;
-}
-
-#map-canvas p, a {
-	font-size: 1.1em;
-	margin: 0;
-	line-height: 1.5em;
-}
-
-#map-canvas a {
-	text-decoration: underline;
-}
-
-.gm-style-iw {
-    min-height: 160px;
-}
 
 .html-widget {
 	width: 100%;

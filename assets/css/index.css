@@ -10,6 +10,9 @@
 .outer-wrapper p {
   margin-left: 10px;
 }
+.outer-wrapper table.data {
+  margin: 10px;
+}
 .outer-wrapper #map-canvas img {
   max-width: none;
 }
@@ -25,9 +28,6 @@
 }
 .outer-wrapper #map-canvas a {
   text-decoration: underline;
-}
-.outer-wrapper .gm-style-iw {
-  min-height: 160px;
 }
 
 .html-widget {

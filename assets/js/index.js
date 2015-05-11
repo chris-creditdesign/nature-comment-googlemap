@@ -6,27 +6,21 @@
 
 			/*	Content */
 			var locations = [
-				["boulder", 40.0075471,-105.2622306, $("#map-content #boulderContent").html()],
-				["cambridge", 52.174806,0.134048, $("#map-content #cambridgeContent").html()],
-				["stockholm", 59.348148,18.023658, $("#map-content #stockholmContent").html()],
-				["singapore", 1.352083,103.819836, $("#map-content #singaporeContent").html()],
-				["geneva", 46.2221721,6.1482593, $("#map-content #genevaContent").html()],
-				["pittsburgh", 40.442492,-79.942553, $("#map-content #pittsburghContent").html()],
-				["newYork", 40.763017,-73.949688, $("#map-content #newYorkContent").html()],
-				["huntsville", 34.7303688,-86.5861037, $("#map-content #huntsvilleContent").html()],
-				["aurora", 39.74486,-104.839997, $("#map-content #auroraContent").html()],
-				["berkeley", 37.871899,-122.25854, $("#map-content #berkeleyContent").html()],
-				["sanFrancisco", 37.763013,-122.458833, $("#map-content #sanFranciscoContent").html()],
-				["rockville", 39.103305,-77.198118, $("#map-content #rockvilleContent").html()]
+				["panjabUniversity", 30.760619,76.765392, $("#map-content #panjabContent").html()],
+				["csir", 28.618146,77.211917, $("#map-content #csirContent").html()],
+				["iitG", 26.192902,91.695063, $("#map-content #iitGContent").html()],
+				["iacs", 22.49894,88.368824, $("#map-content #iacsContent").html()],
+				["iisb", 13.02186,77.567142, $("#map-content #iisbContent").html()],
+				["tata", 18.906629,72.805206, $("#map-content #tataContent").html()]
 			];
 
 			function initialize() {
 				
-				var centerLatlng = new google.maps.LatLng(5,-10);
+				var centerLatlng = new google.maps.LatLng(22,80);
 
 				var mapOptions = {
 					center: centerLatlng,
-					zoom:1
+					zoom:4
 				};
 				
 				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);

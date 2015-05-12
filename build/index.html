@@ -109,7 +109,17 @@
 			<p><strong>Chandigarh</strong></p>
 			<p>The country’s top-rated university in last year’s <em>Times Higher Education</em> World University rankings; its research is cited at 1.4 times the world’s average.</p>
 		</div>
-		<div id="csirContent">
+		<div id="tataContent">
+			<h2>Tata Institute of Fundamental Research</h2>
+			<p><strong>Mumbai</strong></p>
+			<p>Specializes in physics, mathematics and astronomy; around 55% of its publications are internationally co-authored.</p>
+		</div>
+		<div id="iacsContent">
+			<h2>Indian Association for the Cultivation of Science</h2>
+			<p><strong>Kolkata</strong></p>
+			<p>India’s oldest research institute, founded in 1876, is where Nobel laureate C. V. Raman discovered the light-scattering effect that bears his name.</p>
+		</div>
+		<div id="csirNDContent">
 			<h2>Council of Scientific and Industrial Research (CSIR)</h2>
 			<p><strong>New Delhi</strong></p>
 			<p>The CSIR files more international patents than any other Indian research institute or company; it boasts 38 national laboratories and 4,600 active scientists around the country.</p>
@@ -119,25 +129,29 @@
 			<p><strong>Guwahati</strong></p>
 			<p>There are 16 IITs nationwide, accepting only elite students; acceptance rates are about 2%, compared with around 6% at Harvard University.</p>
 		</div>
-		<div id="iacsContent">
-			<h2>Indian Association for the Cultivation of Science</h2>
-			<p><strong>Kolkata</strong></p>
-			<p>India’s oldest research institute, founded in 1876, is where Nobel laureate C. V. Raman discovered the light-scattering effect that bears his name.</p>
-		</div>
 		<div id="iisbContent">
 			<h2>Indian Institute of Science Bangalore</h2>
 			<p><strong>Bangalore</strong></p>
 			<p>The university in India that produces the most papers each year.</p>
 		</div>
-		<div id="tataContent">
-			<h2>Tata Institute of Fundamental Research</h2>
+		<div id="iitBContent">
+			<h2>Indian Institute of Technology (IIT)</h2>
+			<p><strong>Bombay</strong></p>
+		</div>
+		<div id="csirMContent">
+			<h2>Council of Scientific and Industrial Research (CSIR)</h2>
 			<p><strong>Mumbai</strong></p>
-			<p>Specializes in physics, mathematics and astronomy; around 55% of its publications are internationally co-authored.</p>
+		</div>
+		<div id="iitKContent">
+			<h2>Indian Institute of Technology (IIT)</h2>
+			<p><strong>Kharagpur</strong></p>
+		</div>
+		<div id="iitMContent">
+			<h2>Indian Institute of Technology (IIT)</h2>
+			<p><strong>Chennai</strong></p>
 		</div>
 
 	</div>
-
-	<!-- <h2 class="table-heading">Top ten institutions</h2> -->
 
 	<table class="data">
 		<thead>
@@ -228,12 +242,16 @@
 
 			/*	Content */
 			var locations = [
-				["panjabUniversity", 30.760619,76.765392, $("#map-content #panjabContent").html()],
-				["csir", 28.618146,77.211917, $("#map-content #csirContent").html()],
-				["iitG", 26.192902,91.695063, $("#map-content #iitGContent").html()],
-				["iacs", 22.49894,88.368824, $("#map-content #iacsContent").html()],
-				["iisb", 13.02186,77.567142, $("#map-content #iisbContent").html()],
-				["tata", 18.906629,72.805206, $("#map-content #tataContent").html()]
+				["Panjab University", 30.760619,76.765392, $("#map-content #panjabContent").html()],
+				["Tata Institute of Fundamental Research", 18.906629,72.805206, $("#map-content #tataContent").html()],
+				["Indian Association for the Cultivation of Science", 22.49894,88.368824, $("#map-content #iacsContent").html()],
+				["Council of Scientific and Industrial Research (CSIR)", 28.618146,77.211917, $("#map-content #csirNDContent").html()],
+				["Indian Institute of Technology (IIT)", 26.192902,91.695063, $("#map-content #iitGContent").html()],
+				["Indian Institute of Science Bangalore", 13.02186,77.567142, $("#map-content #iisbContent").html()],
+				["Indian Institute of Technology (IIT)", 19.13343,72.913268, $("#map-content #iitBContent").html()],
+				["Council of Scientific and Industrial Research (CSIR)", 19.124793,72.834562, $("#map-content #csirMContent").html()],
+				["Indian Institute of Technology (IIT)", 22.314927,87.310531, $("#map-content #iitBContent").html()],
+				["Indian Institute of Technology (IIT)", 12.992329,80.23684, $("#map-content #iitMContent").html()]
 			];
 
 			function initialize() {

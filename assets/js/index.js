@@ -6,12 +6,16 @@
 
 			/*	Content */
 			var locations = [
-				["panjabUniversity", 30.760619,76.765392, $("#map-content #panjabContent").html()],
-				["csir", 28.618146,77.211917, $("#map-content #csirContent").html()],
-				["iitG", 26.192902,91.695063, $("#map-content #iitGContent").html()],
-				["iacs", 22.49894,88.368824, $("#map-content #iacsContent").html()],
-				["iisb", 13.02186,77.567142, $("#map-content #iisbContent").html()],
-				["tata", 18.906629,72.805206, $("#map-content #tataContent").html()]
+				["Panjab University", 30.760619,76.765392, $("#map-content #panjabContent").html()],
+				["Tata Institute of Fundamental Research", 18.906629,72.805206, $("#map-content #tataContent").html()],
+				["Indian Association for the Cultivation of Science", 22.49894,88.368824, $("#map-content #iacsContent").html()],
+				["Council of Scientific and Industrial Research (CSIR)", 28.618146,77.211917, $("#map-content #csirNDContent").html()],
+				["Indian Institute of Technology (IIT)", 26.192902,91.695063, $("#map-content #iitGContent").html()],
+				["Indian Institute of Science Bangalore", 13.02186,77.567142, $("#map-content #iisbContent").html()],
+				["Indian Institute of Technology (IIT)", 19.13343,72.913268, $("#map-content #iitBContent").html()],
+				["Council of Scientific and Industrial Research (CSIR)", 19.124793,72.834562, $("#map-content #csirMContent").html()],
+				["Indian Institute of Technology (IIT)", 22.314927,87.310531, $("#map-content #iitBContent").html()],
+				["Indian Institute of Technology (IIT)", 12.992329,80.23684, $("#map-content #iitMContent").html()]
 			];
 
 			function initialize() {

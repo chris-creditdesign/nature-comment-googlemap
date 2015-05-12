@@ -16,6 +16,19 @@
 .outer-wrapper table.data {
   margin: 10px 10px 3px 10px;
 }
+.outer-wrapper button {
+  border: none;
+  background: none;
+  color: #069;
+  text-align: left;
+}
+.outer-wrapper button:hover {
+  text-decoration: underline;
+}
+.outer-wrapper #map-canvas {
+  width: 100%;
+  height: 500px;
+}
 .outer-wrapper #map-canvas img {
   max-width: none;
 }

@@ -1,19 +1,23 @@
 .outer-wrapper {
 	width: 100%;
-	border: 1px solid #c8c7cf;
-	margin: 0 0 1em;
+	background-color: #fff;
 
 	h2 {
-		margin-left: 10px;
-		margin-top: 10px;
+		padding-left: 10px;
+		padding-top: 10px;
 	}
 
 	p {
 		margin-left: 10px;
 	}
 
+	p.caption {
+		margin-bottom: 0;
+		font-size: 0.8em;
+	}
+
 	table.data {
-		margin: 10px;
+		margin: 10px 10px 3px 10px;
 	}
 
 	#map-canvas img {
@@ -24,6 +28,7 @@
 		font-size: 1.8em;
 		line-height: 1.2em;
 		margin: 0;
+		padding: 0;
 	}
 
 	#map-canvas p, a {
@@ -41,7 +46,13 @@
 	}
 }
 
-
 .html-widget {
+	border: 1px solid #ececec;
+	background-color: #ececec;
 	width: 100%;
 } 
+
+.html-widget .credit {
+	padding: 5px 5px 0;
+	margin-bottom: 0.3em;
+}

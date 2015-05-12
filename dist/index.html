@@ -1,18 +1,21 @@
 <style scoped>
 .outer-wrapper {
   width: 100%;
-  border: 1px solid #c8c7cf;
-  margin: 0 0 1em;
+  background-color: #fff;
 }
 .outer-wrapper h2 {
-  margin-left: 10px;
-  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .outer-wrapper p {
   margin-left: 10px;
 }
+.outer-wrapper p.caption {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
 .outer-wrapper table.data {
-  margin: 10px;
+  margin: 10px 10px 3px 10px;
 }
 .outer-wrapper #map-canvas img {
   max-width: none;
@@ -21,6 +24,7 @@
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 0;
+  padding: 0;
 }
 .outer-wrapper #map-canvas p, .outer-wrapper a {
   font-size: 1.1em;
@@ -32,7 +36,14 @@
 }
 
 .html-widget {
+  border: 1px solid #ececec;
+  background-color: #ececec;
   width: 100%;
+}
+
+.html-widget .credit {
+  padding: 5px 5px 0;
+  margin-bottom: 0.3em;
 }
 
 </style>
@@ -77,19 +88,20 @@
 
 	</div>
 
-	<h2 class="table-heading">Top ten institutions</h2>
+	<!-- <h2 class="table-heading">Top ten institutions</h2> -->
+
 	<table class="data">
 		<thead>
 			<tr>
-				<th scope="col"> </th>
-				<th scope="col"> </th>
-				<th scope="col">Citation Impact (World average = 1)</th>
+				<th scope="col">Top ten institutions</th>
+				<th scope="col">Location</th>
+				<th scope="col">Citation Impact*</th>
 				<th scope="col">Number of papers in Scopus database 2010-14</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr class="odd">
-				<td>Panjab University</td>>
+				<td>Panjab University</td>
 				<td>Chandigarh</td>
 				<td>1.4</td>
 				<td>4,000</td>
@@ -150,9 +162,10 @@
 			</tr>
 		</tbody>
 	</table>
+	<p class="caption">* World average = 1</p>
 
 </div>
-
+<p class="credit">SCIVAL/SCOPUS; CSIR; IACS; Nature 472, 24–26 (2011)</p>
 
 
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBernqpq1iLeUkzBwBb_ob-Ej6MfjHnlOs&sensor=false">
